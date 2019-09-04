@@ -6,7 +6,19 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77359704-9dda-4e0c-a78c-eec8705d1031" name="Default Changelist" comment="" />
+    <list default="true" id="77359704-9dda-4e0c-a78c-eec8705d1031" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/rest/ProductEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/bookstore/rest/ProductEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/import.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookstore-back.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookstore-back.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/classes/com/pluralsight/bookstore/repository/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/classes/com/pluralsight/bookstore/repository/ProductRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/classes/com/pluralsight/bookstore/rest/ProductEndpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/classes/com/pluralsight/bookstore/rest/ProductEndpoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/classes/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/classes/import.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/bookstore/repository/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pluralsight/bookstore/repository/ProductRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/bookstore/rest/ProductEndpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pluralsight/bookstore/rest/ProductEndpoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/import.sql" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +49,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1QHkv1tYVHvtyeAH3KwcVTFeRAm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="h2&#10;mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -203,11 +219,23 @@
       <workItem from="1567525803793" duration="2875000" />
       <workItem from="1567529012884" duration="6244000" />
       <workItem from="1567540209859" duration="3469000" />
-      <workItem from="1567543760773" duration="4689000" />
+      <workItem from="1567543760773" duration="5293000" />
+      <workItem from="1567603806111" duration="4939000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -20,13 +20,13 @@ import static javax.transaction.Transactional.TxType.SUPPORTS;
 public class ProductRepository {
 
     @PersistenceContext(unitName = "productStorePU")
-    private EntityManager em;
+    private static EntityManager em;
 
     @Inject
-    private NumberGenerator generator;
+    private static NumberGenerator generator;
 
     @Inject
-    private TextUtil textUtil;
+    private static TextUtil textUtil;
 
     public Product find(@NotNull  Long id) {
         return em.find(Product.class, id);
@@ -43,7 +43,7 @@ public class ProductRepository {
     }
 
     @Transactional(REQUIRED)
-    public Product create(@NotNull Product product) {
+    public static Product create(@NotNull Product product) {
         product.setIsbn(generator.generateNumber());
         product.setName(textUtil.sanitaze(product.getName()));
         em.persist(product);
